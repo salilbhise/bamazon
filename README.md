@@ -1,1 +1,1 @@
-# bamazon
+# :boob: Bamazon! :package:

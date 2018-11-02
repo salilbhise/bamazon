@@ -4,10 +4,10 @@ USE bamazon_db;
 
 CREATE TABLE products (
 item_id INT NOT NULL AUTO_INCREMENT,
-product_name VARCHAR(75) NOT NULL,
-department_name VARCHAR(30) NOT NULL,
+product_name VARCHAR(100) NOT NULL,
+department_name VARCHAR(50) NOT NULL,
 price DECIMAL(10,2) NOT NULL,
-stock_quantity INT (30) NOT NULL,
+stock_quantity INT (50) NOT NULL,
 PRIMARY KEY (item_id)
 );
 
@@ -26,3 +26,4 @@ VALUES ("Breville BES870XL Barista Espresso Machine", "Kitchen", 597.95, 22), ("
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Kewpie Japanese Mayo", "Grocery", 12.95, 17), ("Colmans Original English Mustard", "Grocery", 4.95, 5), ("A5 Japanese Wagyu Ribeye 24oz", "Grocery", 270, 6), ("Now Avocado Oil 16oz", "Grocery", 14.15, 27);
 
+SELECT * FROM products;

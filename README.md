@@ -3,7 +3,7 @@
 ## Overview
 Bamazon is an Amazon-like app that uses Node.js & MySQL to take in orders from customers and deplete stock from the store's inventory and simulate the function of a shopping app.
 
-## The functionality is very simple. Once the app opens it does the following:
+The functionality is very simple. Once the app opens it does the following:
 
 - Lists the current products for sale for the user
 - Prompts the user to select the product they want by the product id.
